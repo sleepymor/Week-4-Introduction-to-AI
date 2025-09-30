@@ -1,101 +1,77 @@
-Introduction to Artificial Intelligence
-Task: N-Queen Problem & Traveling Salesman Problem using Local Search
-📌 Overview
+# 🤖 Introduction to Artificial Intelligence  
+## Task: N-Queen Problem & Traveling Salesman Problem (TSP) using Local Search  
 
-This project is part of the Introduction to Artificial Intelligence course. The main objectives are to understand and implement AI problem-solving strategies using search and optimization techniques.
+---
 
-The tasks include:
+## 📌 Overview  
+This project is part of the **Introduction to Artificial Intelligence** course.  
+It covers two classical AI problems:  
 
-N-Queen Problem – solving the classic constraint satisfaction problem.
+1. **N-Queen Problem** – a constraint satisfaction problem.  
+2. **Traveling Salesman Problem (TSP)** – solved using **local search algorithms**.  
 
-Traveling Salesman Problem (TSP) – solving an NP-hard optimization problem using local search algorithms.
+---
 
-🧩 1. N-Queen Problem
+## 🧩 N-Queen Problem  
+The **N-Queen Problem** requires placing **N queens** on an **N × N chessboard** such that no two queens attack each other.  
 
-The N-Queen Problem requires placing N queens on an N × N chessboard such that no two queens attack each other.
+### 🔑 Key Concepts  
+- Constraint Satisfaction Problem (CSP)  
+- Backtracking Search  
+- Heuristics (e.g., Minimum Conflicts)  
 
-Key Concepts:
+### ⚙️ Approach  
+- Implement a solver that finds valid configurations of N queens.  
+- Methods that can be used:  
+  - Backtracking  
+  - Local Search (Hill-Climbing, Simulated Annealing)  
 
-Constraint satisfaction problem (CSP)
+### ✅ Example  
+For `N = 8`, one valid solution places the 8 queens where no two share the same row, column, or diagonal.  
 
-Backtracking search
+---
 
-Heuristics (e.g., Minimum Conflicts)
+## 🚗 Traveling Salesman Problem (TSP) with Local Search  
+The **Traveling Salesman Problem** asks for the shortest possible route that visits each city exactly once and returns to the origin city.  
 
-Approach:
+### 🔑 Key Concepts  
+- Combinatorial Optimization  
+- Local Search Algorithms  
+- Approximation of NP-hard problems  
 
-Implement a solver that finds a valid configuration of N queens.
+### ⚙️ Approach  
+- Represent cities as nodes and distances as edges.  
+- Start with a random tour.  
+- Improve the tour using local search techniques:  
+  - Hill-Climbing  
+  - Simulated Annealing  
+  - Tabu Search  
 
-Can be solved using:
+### 🎯 Goal  
+Find a route with **minimal travel cost (distance/time)**.  
 
-Backtracking
+---
 
-Local search (Hill-Climbing, Simulated Annealing)
+## 🛠️ Implementation Details  
+- **Language:** Python / Java / C++ (based on course requirements)  
+- **Input:**  
+  - N-Queen → board size `N`  
+  - TSP → number of cities and distance matrix  
+- **Output:**  
+  - N-Queen → a valid board configuration  
+  - TSP → optimized route and total cost  
 
-Example:
-For N = 8, one valid solution is a placement where no queens share the same row, column, or diagonal.
+---
 
-🚗 2. Traveling Salesman Problem (TSP) with Local Search
+## 📖 Learning Outcomes  
+- Apply **constraint satisfaction** and **optimization** techniques.  
+- Practice **backtracking** and **local search** algorithms.  
+- Understand trade-offs between **exact** and **approximate** solutions.  
+- Gain hands-on experience with **AI problem-solving**.  
 
-The Traveling Salesman Problem (TSP) asks for the shortest possible route that visits each city exactly once and returns to the origin city.
+---
 
-Key Concepts:
-
-Combinatorial optimization
-
-Local search algorithms
-
-Approximation instead of exact solution (since TSP is NP-hard)
-
-Approach:
-
-Represent cities as nodes and distances as edges.
-
-Start with a random tour.
-
-Improve the tour using local search techniques, such as:
-
-Hill-Climbing
-
-Simulated Annealing
-
-Tabu Search
-
-Goal:
-Find a route with minimal travel cost (distance/time).
-
-⚙️ Implementation Details
-
-Language: Python / Java / C++ (depending on course requirements)
-
-Input:
-
-N-Queen → board size N.
-
-TSP → number of cities and distance matrix.
-
-Output:
-
-N-Queen → one valid solution (or multiple if required).
-
-TSP → optimized tour and total cost.
-
-📖 Learning Outcomes
-
-Understand constraint satisfaction and optimization in AI.
-
-Learn to apply backtracking and local search strategies.
-
-Explore trade-offs between exact and approximate solutions.
-
-Gain practical experience solving NP-hard problems using heuristics.
-
-👩‍💻 Authors
-
-Student Name
-
-Student ID
-
-Course: Introduction to Artificial Intelligence
-
-Institution: [Your University]
+## 👩‍💻 Authors  
+- **Name:** Rizal, Gian, Ibnu, Wisnu, Dylan   
+- **Course:** Introduction to Artificial Intelligence  
+- **Institution:** ITK  
