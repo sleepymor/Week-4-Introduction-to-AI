@@ -53,7 +53,7 @@ Find a route with **minimal travel cost (distance/time)**.
 ---
 
 ## 🛠️ Implementation Details  
-- **Language:** Python / Java / C++ (based on course requirements)  
+- **Language:** Python  
 - **Input:**  
   - N-Queen → board size `N`  
   - TSP → number of cities and distance matrix  
@@ -72,6 +72,6 @@ Find a route with **minimal travel cost (distance/time)**.
 ---
 
 ## 👩‍💻 Authors  
-- **Name:** Rizal, Gian, Ibnu, Wisnu, Dylan   
+- **Name:** Rizal, Gian   
 - **Course:** Introduction to Artificial Intelligence  
 - **Institution:** ITK  
